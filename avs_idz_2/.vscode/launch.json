@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/timtikh/Documents/avs_idz_2",
-      "program": "c:/Users/timtikh/Documents/avs_idz_2/build/Debug/outDebug",
+      "cwd": "d:/AVS-seminars/avs_idz_2",
+      "program": "d:/AVS-seminars/avs_idz_2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

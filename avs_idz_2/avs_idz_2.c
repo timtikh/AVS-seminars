@@ -1,10 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-void main()
+int main()
 {
     // count ascii letters by each in string
     int count[26] = {0};
-    char str[] = "Hello World 1234";
+    // input string
+    char str[2048];
+    // input string
+    printf("Enter string: ");
+    gets(str);
     //printf each char from str[]
     for (int i = 0; str[i] != '\0'; i++)
     {
@@ -34,8 +38,10 @@ void main()
             count2[str[j] - '0']++;
     }
     // print the count of each number
-    for (j = 0; j < 10; j++)
-        if (count2[j] != 0)
-            printf("'%d' = %d  ", j + '0', count2[j]);
-    
+    for (j = 0; j < 10; j++) {
+        if (count2[j] != 0){
+            printf("'%d' = %d  ", j, count2[j]);
+        }
+    }
+    return 0;
 }
