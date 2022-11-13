@@ -2,11 +2,8 @@
 #include <stdlib.h>
 int main()
 {
-    // count ascii letters by each in string
-    int count[26] = {0};
     // input string
     char str[2048];
-    // input string
     printf("Enter string: ");
     gets(str);
     //printf each char from str[]
@@ -14,9 +11,9 @@ int main()
     {
         printf("%c", str[i]);
     }
-
     printf("\n");
-    
+    // count ascii letters by each in string
+    int count[26] = {0};
     int i;
     for (i = 0; str[i] != '\0'; i++)
     {
